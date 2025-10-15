@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shiv Shakti Flower Decoration — Vibrant & Festive Event Decor (Sagar, MP)</title>
+  <meta name="description" content="Shiv Shakti Flower Decoration — wedding, birthday, anniversary & puja decoration services in Sagar, MP. Colorful, reliable, and budget-friendly event decor." />
+  <meta name="keywords" content="wedding decoration Sagar, event decoration, birthday decoration, Ganesh Puja decoration, stage decoration, flower decoration" />
+  <!-- Open Graph for better share cards -->
+  <meta property="og:title" content="Shiv Shakti Flower Decoration" />
+  <meta property="og:description" content="Vibrant & Festive wedding and event decoration services in Sagar, MP." />
+  <meta property="og:image" content="banner.jpg" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fff7fb;
+      --primary:#ff3fa6;    /* vivid pink */
+      --secondary:#ffd6f0;  /* light pink */
+      --gold:#ffcc66;       /* gold accent */
+      --card:#ffffff;
+      --muted:#666;
+      --shadow: 0 10px 30px rgba(11,10,17,0.08);
+      --radius: 14px;
+      --glass: rgba(255,255,255,0.7);
+      --container: 1100px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:'Poppins',sans-serif;background:linear-gradient(180deg,var(--bg),#fff);margin:0;color:#222;line-height:1.5}
+    a{color:inherit}
+
+    /* Header / Navbar */
+    header{position:sticky;top:0;z-index:1000;background:linear-gradient(90deg,var(--primary),#ff78b7);padding:12px 20px;box-shadow:var(--shadow);display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(180deg,#fff0f6,#fff3fb);display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--primary);box-shadow:0 6px 18px rgba(255,63,166,0.12)}
+    .brand h1{font-size:18px;margin:0;color:#fff}
+    .nav{display:flex;gap:12px;align-items:center}
+    .nav a{color:rgba(255,255,255,0.95);text-decoration:none;font-weight:600;padding:8px 10px;border-radius:8px}
+    .nav a:hover{background:rgba(255,255,255,0.08)}
+    .cta{background:#fff;color:var(--primary);padding:8px 12px;border-radius:10px;font-weight:700;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+
+    /* Hero */
+    .hero{max-width:var(--container);margin:22px auto;padding:24px;display:grid;grid-template-columns:1fr;gap:18px}
+    .hero-card{background:linear-gradient(180deg,var(--card),#fff);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:grid;grid-template-columns:1fr;align-items:center}
+    .hero-img{width:100%;height:460px;object-fit:cover;display:block}
+    .hero-content{padding:22px}
+    .hero-title{color:var(--primary);font-size:28px;margin:0 0 8px}
+    .hero-lead{color:var(--muted);margin-bottom:12px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn-primary{background:linear-gradient(90deg,var(--primary),#ff85c2);color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:800;box-shadow:0 8px 20px rgba(255,63,166,0.14)}
+    .btn-outline{background:#fff;border:1px solid rgba(0,0,0,0.06);padding:10px 14px;border-radius:10px;text-decoration:none;color:var(--primary);font-weight:700}
+
+    /* Sections layout */
+    main{max-width:var(--container);margin:30px auto;padding:0 18px}
+    section{margin-bottom:44px}
+    section h2{text-align:center;color:var(--primary);margin-bottom:18px;font-size:22px}
+
+    /* About */
+    .about{display:grid;grid-template-columns:1fr 400px;gap:20px;align-items:center}
+    .about .text{background:var(--card);padding:20px;border-radius:12px;box-shadow:var(--shadow)}
+    .about .who{font-weight:700}
+
+    /* Services grid */
+    .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .service{background:linear-gradient(180deg,#fff,#fff);padding:18px;border-radius:12px;box-shadow:var(--shadow);text-align:center;transition:transform .28s,box-shadow .28s}
+    .service:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(11,10,17,0.10)}
+    .service h3{color:var(--primary);margin-bottom:8px}
+    .service p{color:var(--muted);font-size:0.95rem}
+
+    /* Packages */
+    .packages{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+    .pkg{background:linear-gradient(180deg,#fff,#fff);border-radius:12px;padding:18px;box-shadow:var(--shadow);text-align:center}
+    .pkg .price{font-size:20px;color:var(--gold);font-weight:800;margin:8px 0}
+
+    /* Themes */
+    .themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+    .theme{background:var(--card);padding:10px;border-radius:10px;text-align:center;box-shadow:var(--shadow)}
+    .theme img{width:100%;height:120px;object-fit:cover;border-radius:8px;margin-bottom:8px}
+
+    /* Stats */
+    .stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .stat{background:linear-gradient(180deg,#fff,#fff);padding:16px;border-radius:12px;min-width:150px;text-align:center;box-shadow:var(--shadow)}
+    .stat .num{font-size:24px;color:var(--primary);font-weight:800}
+
+    /* Testimonials */
+    .testimonials{position:relative;overflow:hidden}
+    .test-list{display:flex;transition:transform .6s ease}
+    .test{min-width:100%;padding:18px;background:var(--card);border-radius:12px;box-shadow:var(--shadow);text-align:center}
+
+    /* Gallery */
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+    .gallery-grid img{width:100%;height:160px;object-fit:cover;border-radius:10px;cursor:pointer;box-shadow:var(--shadow);transition:transform .25s}
+    .gallery-grid img:hover{transform:scale(1.03)}
+
+    /* Lightbox */
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.75);display:flex;align-items:center;justify-content:center;padding:20px;z-index:2000;opacity:0;pointer-events:none;transition:opacity .25s}
+    .lightbox.open{opacity:1;pointer-events:all}
+    .lightbox img{max-width:95%;max-height:85%;border-radius:10px;box-shadow:0 12px 40px rgba(0,0,0,0.5)}
+
+    /* Contact */
+    .contact-grid{display:grid;grid-template-columns:1fr 420px;gap:16px}
+    .contact-card{background:var(--card);padding:18px;border-radius:12px;box-shadow:var(--shadow)}
+    form input,form select,form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #eee;margin-bottom:10px;font-size:1rem}
+    .submit-row{display:flex;gap:10px;align-items:center}
+    .note{font-size:13px;color:var(--muted)}
+
+    /* Floating buttons */
+    .float-buttons{position:fixed;right:18px;bottom:18px;display:flex;flex-direction:column;gap:10px;z-index:1100}
+    .float-buttons a{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,var(--primary),#ff85c2);color:#fff;text-decoration:none;box-shadow:0 10px 30px rgba(255,63,166,0.12);font-size:20px}
+
+    footer{padding:22px;text-align:center;color:var(--muted)}
+
+    /* Responsive */
+    @media(max-width:980px){.about{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.hero-img{height:320px}}
+    @media(max-width:680px){header{padding:10px}.brand h1{font-size:16px}.nav{display:none}}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <div class="logo">SS</div>
+      <div>
+        <h1>Shiv Shakti Flower Decoration</h1>
+        <div style="font-size:12px;color:rgba(255,255,255,0.9)">Bada Bajar, Sagar, MP</div>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#packages">Packages</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a class="cta" href="https://wa.me/919399828925" target="_blank">WhatsApp</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-card">
+      <img class="hero-img" src="banner.jpg" alt="Shiv Shakti Banner - Vibrant Wedding Decoration" loading="lazy">
+      <div class="hero-content">
+        <h2 class="hero-title">Shiv Shakti Flower Decoration — Beautiful Designs for Every Occasion</h2>
+        <p class="hero-lead">Vibrant & festive wedding, birthday, anniversary and puja decorations — rentals & full-service setups across Sagar, MP.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Book Your Event</a>
+          <a href="price-list.pdf" class="btn-outline" download>📄 View Price Packages</a>
+          <a href="wedding.html" class="btn-outline">💍 Wedding Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Shiv Shakti</h2>
+      <div class="about">
+        <div class="text">
+          <p class="who">Family-run event decoration business in Sagar, MP — specialising in colourful, handcrafted designs and on-time setups.</p>
+          <p>We combine seasonal flowers, high-quality props, and experienced installers to create stages, mandaps, balloon themes, and puja decorations that stand out. We also offer rental services for props and lighting.</p>
+          <p style="margin-top:10px;font-weight:700">Phone: <a href="tel:+919399828925">+91 93998 28925</a></p>
+        </div>
+        <div>
+          <div style="background:linear-gradient(90deg,var(--secondary),#fff);padding:18px;border-radius:12px;box-shadow:var(--shadow)">
+            <h3 style="margin-top:0;color:var(--primary)">How We Work</h3>
+            <ol style="padding-left:18px;color:var(--muted)">
+              <li><strong>Consult:</strong> We discuss theme, location & budget.</li>
+              <li><strong>Design:</strong> We propose a concept, moodboard, and pricing.</li>
+              <li><strong>Decorate:</strong> On-site setup & teardown with care.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <h2>Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h3><a href="wedding.html">Wedding Decoration</a></h3>
+          <p>Stage & mandap setups, floral arches, seating decor, lighting and full coordination.</p>
+        </div>
+        <div class="service">
+          <h3><a href="birthday.html">Birthday Celebration</a></h3>
+          <p>Theme backdrops, balloon arrangements, cake tables and photo corners.</p>
+        </div>
+        <div class="service">
+          <h3><a href="anniversary.html">Anniversary Decoration</a></h3>
+          <p>Romantic themes, floral paths, cozy lounges and intimate lighting.</p>
+        </div>
+        <div class="service">
+          <h3><a href="ganeshpuja.html">Ganesh Puja & Religious</a></h3>
+          <p>Traditional stage settings, floral mandaps and decorative altars for pujas.</p>
+        </div>
+        <div class="service">
+          <h3>Event Rentals</h3>
+          <p>Pedestals, arches, lights, props, and floral arrangements for short & long rentals.</p>
+        </div>
+        <div class="service">
+          <h3>Corporate Events</h3>
+          <p>Brand-friendly staging, floral branding and elegant banquet setups.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section id="packages">
+      <h2>Packages & Pricing</h2>
+      <div class="packages">
+        <div class="pkg">
+          <h3>Basic</h3>
+          <div class="price">₹2,999 / Small Events</div>
+          <p>Balloon arch, basic backdrop and string lights — ideal for small gatherings.</p>
+          <div style="margin-top:10px"><button onclick="openWhatsApp('Basic Package')">Book Basic</button></div>
+        </div>
+        <div class="pkg">
+          <h3>Premium</h3>
+          <div class="price">₹6,999 / Medium Events</div>
+          <p>Floral stage, seating decor, enhanced lighting & themed props.</p>
+          <div style="margin-top:10px"><button onclick="openWhatsApp('Premium Package')">Book Premium</button></div>
+        </div>
+        <div class="pkg">
+          <h3>Royal</h3>
+          <div class="price">₹12,999+ / Large Events</div>
+          <p>Full-theme decor, mandap, custom props, premium flowers & full coordination.</p>
+          <div style="margin-top:10px"><button onclick="openWhatsApp('Royal Package')">Book Royal</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THEMES -->
+    <section id="themes">
+      <h2>Themes We Offer</h2>
+      <div class="themes">
+        <div class="theme"><img src="gallery1.jpg" alt="Wedding Theme" loading="lazy"><div>Wedding Theme</div></div>
+        <div class="theme"><img src="gallery2.jpg" alt="Birthday Theme" loading="lazy"><div>Birthday Theme</div></div>
+        <div class="theme"><img src="gallery3.jpg" alt="Anniversary Theme" loading="lazy"><div>Anniversary Theme</div></div>
+        <div class="theme"><img src="gallery4.jpg" alt="Ganesh Puja" loading="lazy"><div>Ganesh Puja</div></div>
+        <div class="theme"><img src="gallery5.jpg" alt="Corporate Event" loading="lazy"><div>Corporate</div></div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats">
+      <h2>Our Experience</h2>
+      <div class="stats">
+        <div class="stat"><div class="num" data-target="250">0</div><div>Events Decorated</div></div>
+        <div class="stat"><div class="num" data-target="120">0</div><div>Happy Clients</div></div>
+        <div class="stat"><div class="num" data-target="10">0</div><div>Years Experience</div></div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <h2>What Clients Say</h2>
+      <div class="testimonials">
+        <div class="test-list" id="testList">
+          <div class="test">
+            <p>“They made our wedding day beautiful and stress-free. Amazing team!”</p>
+            <p style="font-weight:700;margin-top:8px">— Neha & Rahul</p>
+          </div>
+          <div class="test">
+            <p>“Excellent service, great value and on-time setup. Highly recommended.”</p>
+            <p style="font-weight:700;margin-top:8px">— Priya Sharma</p>
+          </div>
+          <div class="test">
+            <p>“Very creative themes and friendly staff — made our anniversary perfect.”</p>
+            <p style="font-weight:700;margin-top:8px">— Amit & Sushma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="gallery1.jpg" alt="Decor 1" loading="lazy" data-full="gallery1.jpg">
+        <img src="gallery2.jpg" alt="Decor 2" loading="lazy" data-full="gallery2.jpg">
+        <img src="gallery3.jpg" alt="Decor 3" loading="lazy" data-full="gallery3.jpg">
+        <img src="gallery4.jpg" alt="Decor 4" loading="lazy" data-full="gallery4.jpg">
+        <img src="gallery5.jpg" alt="Decor 5" loading="lazy" data-full="gallery5.jpg">
+        <img src="gallery6.jpg" alt="Decor 6" loading="lazy" data-full="gallery6.jpg">
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Send Inquiry / Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Send Us Your Event Details</h3>
+          <p class="note">Prefer email? Use the form below. Or message us instantly on WhatsApp.</p>
+          <form id="inquiryForm" action="https://formspree.io/f/placeholder" method="POST">
+            <div style="display:flex;gap:10px">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div style="display:flex;gap:10px;margin-top:6px">
+              <input type="email" name="email" placeholder="Your Email" required>
+              <select name="event_type" required>
+                <option value="">Event Type</option>
+                <option>Wedding</option>
+                <option>Birthday</option>
+                <option>Anniversary</option>
+                <option>Ganesh Puja</option>
+                <option>Corporate</option>
+              </select>
+            </div>
+            <input type="date" name="event_date" required>
+            <textarea name="message" placeholder="Tell us about your event (venue, guest count, ideas)" rows="4" required></textarea>
+            <input type="hidden" name="source" value="Website - Shiv Shakti">
+            <div class="submit-row">
+              <button type="submit">Send Inquiry</button>
+              <a class="btn-outline" href="https://wa.me/919399828925?text=Hello%20Shiv%20Shakti%20-%20I%20want%20to%20book%20an%20event" target="_blank">Message on WhatsApp</a>
+            </div>
+          </form>
+          <p style="margin-top:10px" class="note">Tip: Replace the Formspree action URL with your own endpoint to receive emails directly.</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Location & Quick Contact</h3>
+          <p><strong>Address:</strong> Bada Bajar, Sagar, MP</p>
+          <p><strong>Phone:</strong> <a href="tel:+919399828925">+91 93998 28925</a></p>
+          <div style="margin-top:12px">
+            <a href="price-list.pdf" class="btn-outline" download>📄 Download Price Packages</a>
+          </div>
+          <div style="margin-top:12px">
+            <iframe src="https://www.google.com/maps?q=Bada+Bajar+Sagar+MP&output=embed" width="100%" height="220" style="border:0;border-radius:10px"></iframe>
+          </div>
+          <div style="margin-top:10px;display:flex;gap:8px">
+            <a href="https://wa.me/919399828925" target="_blank">💬 WhatsApp</a>
+            <a href="https://facebook.com/placeholder" target="_blank">📘 Facebook</a>
+            <a href="https://instagram.com/placeholder" target="_blank">📸 Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating contact buttons -->
+  <div class="float-buttons">
+    <a href="https://wa.me/919399828925" title="WhatsApp" target="_blank">💬</a>
+    <a href="tel:+919399828925" title="Call">📞</a>
+    <a href="#contact" title="Contact">✉️</a>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" onclick="closeLightbox()">
+    <img id="lightboxImg" alt="Expanded image">
+  </div>
+
+  <footer>
+    <div>© <span id="year"></span> Shiv Shakti Flower Decoration — Bada Bajar, Sagar MP</div>
+    <div style="margin-top:6px;color:var(--muted)">Made with ❤️ — Professional decoration services</div>
+  </footer>
+
+  <script>
+    // YEAR
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth sticky nav highlight (simple)
+    const navLinks = document.querySelectorAll('header .nav a');
+    function onScrollHighlight(){
+      const sections = ['home','about','services','packages','gallery','contact'];
+      let pos = window.scrollY + 120;
+      for(let id of sections){
+        const el = document.getElementById(id);
+        if(!el) continue;
+        if(pos >= el.offsetTop && pos < el.offsetTop + el.offsetHeight){
+          navLinks.forEach(a=>a.classList.remove('active'));
+          const link = document.querySelector('header .nav a[href="#'+id+'"]');
+          if(link) link.classList.add('active');
+        }
+      }
+    }
+    window.addEventListener('scroll', onScrollHighlight);
+
+    // Open WhatsApp with message helper
+    function openWhatsApp(note){
+      const text = encodeURIComponent("Hello Shiv Shakti — I am interested in: " + note + " . Please send details.");
+      window.open('https://wa.me/919399828925?text=' + text, '_blank');
+    }
+
+    // Testimonials slider (auto)
+    (function(){
+      const list = document.getElementById('tes
